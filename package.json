@@ -1,0 +1,16 @@
+{
+  "name": "legal-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "apply-codes": "node scripts/apply-codes.mjs",
+    "apply-codes:local": "node scripts/apply-codes.mjs --local"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241230.0",
+    "typescript": "^5.5.2",
+    "wrangler": "^3.99.0"
+  }
+}

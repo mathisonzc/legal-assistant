@@ -1,0 +1,2 @@
+LLM_API_KEY = "sk-your-deepseek-key"
+EMBED_API_KEY = "sk-your-siliconflow-key"

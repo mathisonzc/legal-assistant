@@ -1,0 +1,50 @@
+{
+  "_comment": "Phase 0 pilot law list. Article text comes from the open-source repo ImCa0/just-laws; metadata (force level / enacting authority / validity) follows the official flk.npc.gov.cn conventions. source is the raw path in just-laws; the Civil Code is split into one file per book.",
+  "source_repo": "https://raw.githubusercontent.com/ImCa0/just-laws/master/",
+  "laws": [
+    {
+      "name": "中华人民共和国劳动合同法",
+      "flxz": "法律",
+      "zdjg": "全国人民代表大会常务委员会",
+      "xiaoli": "现行有效",
+      "sources": [{"file": "docs/social/labor-contracts-law/README.md", "bian": ""}]
+    },
+    {
+      "name": "中华人民共和国劳动法",
+      "flxz": "法律",
+      "zdjg": "全国人民代表大会常务委员会",
+      "xiaoli": "现行有效",
+      "sources": [{"file": "docs/social/labor-law/README.md", "bian": ""}]
+    },
+    {
+      "name": "中华人民共和国消费者权益保护法",
+      "flxz": "法律",
+      "zdjg": "全国人民代表大会常务委员会",
+      "xiaoli": "现行有效",
+      "sources": [{"file": "docs/civil-and-commercial/protection-of-the-rights-and-interests-of-consumers/README.md", "bian": ""}]
+    },
+    {
+      "name": "中华人民共和国道路交通安全法",
+      "flxz": "法律",
+      "zdjg": "全国人民代表大会常务委员会",
+      "xiaoli": "现行有效",
+      "sources": [{"file": "docs/administrative/road-traffic-safety-law/README.md", "bian": ""}]
+    },
+    {
+      "name": "中华人民共和国民法典",
+      "flxz": "法律",
+      "zdjg": "全国人民代表大会",
+      "xiaoli": "现行有效",
+      "sources": [
+        {"file": "docs/civil-and-commercial/civil-code/01-general-principles.md", "bian": "第一编 总则"},
+        {"file": "docs/civil-and-commercial/civil-code/02-property-rights.md", "bian": "第二编 物权"},
+        {"file": "docs/civil-and-commercial/civil-code/03-contracts.md", "bian": "第三编 合同"},
+        {"file": "docs/civil-and-commercial/civil-code/04-personality-rights.md", "bian": "第四编 人格权"},
+        {"file": "docs/civil-and-commercial/civil-code/05-marriage-and-family.md", "bian": "第五编 婚姻家庭"},
+        {"file": "docs/civil-and-commercial/civil-code/06-inheritance.md", "bian": "第六编 继承"},
+        {"file": "docs/civil-and-commercial/civil-code/07-tort-liability.md", "bian": "第七编 侵权责任"},
+        {"file": "docs/civil-and-commercial/civil-code/00-supplementary.md", "bian": "附则"}
+      ]
+    }
+  ]
+}

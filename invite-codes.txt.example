@@ -1,0 +1,15 @@
+# Invite code list. This file is the source of truth; edit it anytime.
+#
+# Format, one code per line: code[,max_uses][,status]
+#   CODE-XXXXXX-YYYYYY            -> unlimited, active
+#   CODE-XXXXXX-YYYYYY,100        -> limited to 100 uses, active
+#   CODE-XXXXXX-YYYYYY,,revoked   -> revoked
+#
+# Lines starting with # and blank lines are ignored.
+#
+# After editing, sync it to D1 (only max_uses / status are updated, usage is kept):
+#   npm run apply-codes
+#
+# Copy this file to invite-codes.txt and add your own codes below.
+
+your-invite-code-here

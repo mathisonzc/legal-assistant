@@ -1,0 +1,11 @@
+node_modules/
+.wrangler/
+
+# local secrets, never commit
+.dev.vars
+invite-codes.txt
+
+# build artifacts (regenerate with kb/embed.py)
+kb/vectors.ndjson
+
+.DS_Store

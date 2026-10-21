@@ -1,0 +1,31 @@
+name = "legal-assistant"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# DeepSeek API (OpenAI-compatible)
+LLM_BASE_URL = "https://api.deepseek.com"
+LLM_MODEL = "deepseek-v4-flash"
+# Embedding (RAG retrieval), SiliconFlow bge-m3
+EMBED_BASE_URL = "https://api.siliconflow.cn/v1"
+EMBED_MODEL = "BAAI/bge-m3"
+# Secrets (never put these in this file / commit them):
+#   wrangler secret put LLM_API_KEY
+#   wrangler secret put EMBED_API_KEY
+
+# Legal knowledge base vector index (Cloudflare Vectorize)
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "legal-kb"
+
+# Invite codes / online sessions (Cloudflare D1)
+[[d1_databases]]
+binding = "DB"
+database_name = "legal-assistant-users"
+database_id = "<your-database-id>"   # from: npx wrangler d1 create legal-assistant-users
+
+# If you want to bind a custom domain, add a routes block, e.g.:
+# [[routes]]
+# pattern = "your-domain.com"
+# custom_domain = true
